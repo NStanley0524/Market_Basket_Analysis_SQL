@@ -22,4 +22,4 @@ This analysis is aimed at:
 
 
 ## Data Source
-Data for this analysis was gotten from "*KAGGLE*" and the file can be found here[
+Data for this analysis was gotten from "*KAGGLE*" and the file can be found here(https://github.com/NStanley0524/Market_Basket_Analysis_SQL/blob/main/Groceries%20data.csv)
