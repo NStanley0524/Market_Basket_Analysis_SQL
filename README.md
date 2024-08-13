@@ -282,3 +282,38 @@ Below is the result of the analysis
 ![Screenshot 2024-08-13 201140](https://github.com/user-attachments/assets/efe7c398-ca77-4448-b625-4ed8389456e4)
 
 
+### Product pair 1
+The first product pair shows that whole milk and other vegetables have been bought together **549** times by various customers. The product pair having a support of **2.68%** shows that they appear in 2.68% of the total transactions. The confidence of **37.5%** shows that customers who buy whole milk are 37.5% likely to buy other vegetables. The lift of **5.07** is greater than 1 which means that the presence of whole milk increases the chances that other vegetables will appear in the transaction. If wholemilk is in the shopping cart, it is 5.07 times more likely that other vegetables will be purchased than if whole milk is not in the shopping cart.
+
+
+### Product pair 2
+The first product pair shows that whole milk and rolls/buns have been bought together **491** times by various customers. The product pair having a support of **2.39%** shows that they appear in 2.39% of the total transactions. The confidence of **33.5%** shows that customers who buy whole milk are 33.5% likely to buy other vegetables. The lift of **4.3** is greater than 1 which means that the presence of whole milk increases the chances that other vegetables will appear in the transaction. If wholemilk is in the shopping cart, it is 4.3 times more likely that other vegetables will be purchased than if whole milk is not in the shopping cart.
+
+
+From the above analysis, the following insights can be deduced:
+1. **Whole milk** is a central product in these transactions, frequently purchased with various other items, particularly other vegetables, rolls/buns, soda, and sausage.
+2. The yogurt and whole milk pair stands out due to its high confidence and lift values, suggesting a strong complementary relationship. This could be an opportunity for cross-promotion or bundling these products together in marketing strategies.
+3. Retailers could consider placing whole milk near these associated items to increase the likelihood of multiple purchases, thereby potentially increasing sales.
+
+
+
+## Recommendations
+
+### Product placement and store layout
+- Since these items are frequently bought together, placing them near each other in the store can make it more convenient for customers to purchase them together, potentially increasing sales.
+- Given that whole milk is a common item in many pairs, consider placing it in multiple sections of the store, particularly near the dairy aisle, vegetables, and bakery sections, to capture more cross-selling opportunities.
+
+### Promotional strategies
+- Create promotional bundles that include whole milk and either other vegetables or rolls/buns. This could incentivize customers to purchase both items together, increasing the overall basket size.
+- Since the pair of yogurt and whole milk has a high confidence and lift, offering a discount on whole milk with the purchase of yogurt could encourage customers to buy both items together, capitalizing on their strong association.
+
+### Cross promotions
+- Train staff to suggest complementary products, such as recommending rolls/buns or sausage when a customer buys whole milk. This can help boost sales by encouraging customers to purchase additional items they might not have considered.
+- For online stores, use algorithms to recommend products like other vegetables, rolls/buns, or sausage when customers add whole milk to their cart, increasing the likelihood of additional purchases.
+
+### Inventory management
+- Ensure that items like whole milk, other vegetables, and rolls/buns are consistently well-stocked, especially during peak shopping times, to avoid stockouts and lost sales.
+
+### Tarhetted marketting campaign
+- Use customer purchase history to send personalized offers. For example, offer discounts on sausage to customers who frequently purchase whole milk, leveraging the strong association between these items.
+- Create seasonal campaigns that bundle high-confidence pairs like whole milk and soda, especially during summer or holiday seasons when these items might see increased demand.
