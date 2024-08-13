@@ -172,7 +172,7 @@ Here are the reuslt of tthe query:
 ### Support
 The probability that the antecedent will occur, i.e that customer will buy the items in item 1 is called the support of this rule. It is calculated as thus:
 
-![Screenshot 2024-08-13 185607](https://github.com/user-attachments/assets/6efc1f2a-6bd8-40f6-8994-b0cce33860a4)
+**Support = frequency of both / total number of transactions**
 
 In otherwords, it can be seen as the percentage of transactions that contain all the items in an itemset (item 1), How likely the iten 1 will occur in a transaction.
 
@@ -200,7 +200,7 @@ The higher the support, the more frequent the itemset occurs.
 ### Confidence
 Confidence measures the strenght of relationship between two items. It is calculated as:
 
-![Screenshot 2024-08-13 190701](https://github.com/user-attachments/assets/586f9b5c-1957-462c-922d-544f48a20a00)
+**Confidence = frequency of both / frequency of LHS**
 
 Confidence tells us that if the products on the left hand side are ordered, how likely it is that the product on the right hand side are also in the shopping cart
 
@@ -237,7 +237,7 @@ The higher the confidence, the more likely that the item on the right hand side 
 The lift indicates the factor by which the probability of buying the products on the right hand side increases if the products on the right hand side have already been bought. 
 It is calculated as thus:
 
-![Screenshot 2024-08-13 195245](https://github.com/user-attachments/assets/76ee0ef1-c5af-4104-8067-1052b7f06fb9)
+**Lift = support /support of A + support of B**
 
 So in the example below, If the product youghurt is in the shopping cart, it is 3.26 times more likely that tropical fruit will be purchased than if the product youghurt is not in the shopping cart.
 
