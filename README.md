@@ -204,6 +204,28 @@ Confidence measures the strenght of relationship between two items. It is calcul
 
 Confidence tells us that if the products on the left hand side are ordered, how likely it is that the product on the right hand side are also in the shopping cart
 
+### Failed attemp at calculating confidence
+```sql
+select G1.itemDescription as Item_1,
+G2.ItemDescription as Item_2,
+count(1) as frequency,
+(select count(Member_number) from groceries_data as c) as Total_transactions,
+(select count(member_number) from groceries_data as d where d.itemDescription= Item_1) as frequency_LHS
+from groceries_data as G1
+join groceries_data as G2
+on G1.Member_number = G2.Member_number
+where G1.itemDescription > G2.itemDescription
+group by Item_1,Item_2;
+```
+The failed attempt yielded the following error result
+
+![Screenshot 2024-08-22 003902](https://github.com/user-attachments/assets/c6dce561-390e-44ea-b5d6-8e2c393da98a)
+
+
+This attempt returned an error. But i found a way to calculate the confidence correctly by joining identical table to the item on LHS on same item description and then, extracting the number of rows that match the item on the LHS.
+
+**Below is the corrected code snippet for calculating confidence**
+
 ```sql
 with MB as 
 (select G1.itemDescription as Item_1,
