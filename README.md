@@ -336,6 +336,6 @@ From the above analysis, the following insights can be deduced:
 ### Inventory management
 - Ensure that items like whole milk, other vegetables, and rolls/buns are consistently well-stocked, especially during peak shopping times, to avoid stockouts and lost sales.
 
-### Tarhetted marketting campaign
+### Targetted marketting campaign
 - Use customer purchase history to send personalized offers. For example, offer discounts on sausage to customers who frequently purchase whole milk, leveraging the strong association between these items.
 - Create seasonal campaigns that bundle high-confidence pairs like whole milk and soda, especially during summer or holiday seasons when these items might see increased demand.
